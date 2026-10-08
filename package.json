@@ -1,0 +1,11 @@
+{
+  "name": "student-management-system",
+  "version": "1.0.0",
+  "description": "Student Management System - HTML/CSS/JS frontend, Flask + SQLite backend",
+  "scripts": {
+    "start": "python app.py",
+    "test:py": "python -m unittest test_app.py -v",
+    "test:api": "node test_api.js"
+  },
+  "engines": { "node": ">=18" }
+}
